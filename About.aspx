@@ -12,7 +12,7 @@
         <tr>
             <td>
                 <p style="text-align: justify;">
-                2006. E-commerce was in its infancy in Oman. The smartphone revolution had not yet kicked off, and laptops were scarcely available. There were very few people who were well-versed in tech trends, and a limited number of places that specialized in tech gadgets. Pakistan, on the overall, was slow to embrace the importance of technology in the country’s development. But myshop.pk, formerly myshop.om, and officially known as MyShop Online, already saw technology’s potential.
+                2006. E-commerce was in its infancy in Oman. The smartphone revolution had not yet kicked off, and laptops were scarcely available. There were very few people who were well-versed in tech trends, and a limited number of places that specialized in tech gadgets. Oman, on the overall, was slow to embrace the importance of technology in the country’s development. But myshop.pk, formerly myshop.om, and officially known as MyShop Online, already saw technology’s potential.
 
 The company started out as an online portal where people could find information about a variety of laptops, smartphones and related accessories from the comforts of their home. As the country’s IT and technology sector grew, so did our company.
             </p></td>
