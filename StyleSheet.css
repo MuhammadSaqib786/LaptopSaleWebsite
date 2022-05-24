@@ -42,4 +42,23 @@ figcaption{
 #homehead{
     color: #2C60C6;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-bottom: 30px;
 }
+.auto-style1 {
+            width: 100%;
+        }
+.auto-style2 {
+            width: 254px;
+        }
+        .auto-style3 {
+            width: 352px;
+        }
+        .auto-style4 {
+            width: 352px;
+            text-decoration: underline;
+            text-align: center;
+        }
+        .auto-style5 {
+            width: 254px;
+            text-align: right;
+        }

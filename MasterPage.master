@@ -40,7 +40,7 @@
                                            <a href="Login.aspx">Login</a>
                                        </AnonymousTemplate>
                                        <LoggedInTemplate>
-                                         <asp:LoginName ID="LoginName2" runat="server" FormatString="Welcome {0} !!" ForeColor="Brown" Font-Size="Medium"/>              
+                                         <asp:LoginName ID="LoginName2" runat="server" FormatString="Welcome {0} !!" ForeColor="white" Font-Size="Medium"/>              
                                            <asp:LoginStatus ID="Loginstatus1" runat="server" LoginText="Logout" LogoutPageUrl="~/HOME.aspx" LogoutAction="Redirect" />
                                        </LoggedInTemplate>
                                     </asp:LoginView>
