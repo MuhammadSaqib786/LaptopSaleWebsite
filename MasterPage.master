@@ -27,8 +27,8 @@
                                 <div>
                                     <ul>
                                       <li><a class="active" href="Home.aspx">Home</a></li>
-                                      <li><a href="#news">About Us</a></li>
-                                      <li><a href="#contact">Contact Us</a></li>
+                                      <li><a href="About.aspx">About Us</a></li>
+                                      <li><a href="Contact.aspx">Contact Us</a></li>
                                       <li><a href="#about">Our Products</a></li>
                                     </ul>
                                 </div>
