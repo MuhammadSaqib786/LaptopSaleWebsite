@@ -9,7 +9,7 @@
     <table width="80%" align="center" style="margin-bottom:40px">
                     <tr>
                         <td rowspan="5" width="35%">
-                        <a href="index.html"><img src="Images/contact-us.jpg" class="homeLinks" alt="" width="100%" height="auto"></a>
+                        <a href="index.html"><img src="Images/contact.jpg" class="homeLinks" alt="" width="100%" height="auto"></a>
                         </td>
                         <td>
                             <h2>Contact Us</h2>
