@@ -18,7 +18,15 @@ public partial class Login : System.Web.UI.Page
     protected void Button1_Click(object sender, EventArgs e)
     {
         if (Authenticateuser(TextBox1.Text, TextBox2.Text))
+        {
+            if (TextBox1.Text.ToString()=="admin")
+            {
+                Response.Redirect("Admin.aspx");
+            }
+            else
             FormsAuthentication.RedirectFromLoginPage(TextBox1.Text, CheckBox1.Checked);
+        }
+            
         else
         {
             Label2.Text = "*Invalid Username or Password";
