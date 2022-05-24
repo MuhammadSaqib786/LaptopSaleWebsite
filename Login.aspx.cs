@@ -21,7 +21,7 @@ public partial class Login : System.Web.UI.Page
         {
             if (TextBox1.Text.ToString()=="admin")
             {
-                Response.Redirect("Admin.aspx");
+                FormsAuthentication.RedirectFromLoginPage(TextBox1.Text, CheckBox1.Checked,"Admin.aspx");
             }
             else
             FormsAuthentication.RedirectFromLoginPage(TextBox1.Text, CheckBox1.Checked);
