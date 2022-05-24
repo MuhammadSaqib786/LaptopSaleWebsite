@@ -59,7 +59,7 @@
                 <asp:TextBox ID="TextBox5" runat="server" Height="20px" Width="200px" TextMode="Password"></asp:TextBox>
             </td>
             <td >
-                <asp:CompareValidator ID="CompareValidator1" runat="server" ControlToCompare="TextBox4" ControlToValidate="TextBox5" ErrorMessage="Same as Password" Font-Bold="True" ForeColor="Red"></asp:CompareValidator>
+                <asp:CompareValidator ID="CompareValidator1" runat="server" ControlToCompare="TextBox4" ControlToValidate="TextBox5" ErrorMessage="*Passwords don't match " Font-Bold="True" ForeColor="Red"></asp:CompareValidator>
             </td>
         </tr>
         <tr>
@@ -73,10 +73,16 @@
             <td colspan="2" align="center">
                 <asp:Button ID="Button1" runat="server" BackColor="#2C60C6"  Font-Bold="True" ForeColor="white" Text="Register Now" OnClick="Button1_Click" width="200px" Height="30px"/>
             </td>
-            <td>
-                <asp:Label ID="Label2" runat="server"></asp:Label>
-            </td>
+            
         </tr>
+         <tr>
+             <td colspan="2">
+                 
+                <asp:Label ID="Label2" runat="server"></asp:Label>
+            
+
+             </td>
+         </tr>
        
     </table>
     

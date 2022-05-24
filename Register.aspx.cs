@@ -19,7 +19,11 @@ public partial class Register : System.Web.UI.Page
     {
         checkuser();
         if (count > 0)
-            Label2.Text = "user already exist, use another username";
+        {
+            Label2.Text = "*user already exist, use another username";
+            Label2.ForeColor = System.Drawing.Color.Red;
+        }
+            
         else
         {
             createuser();
@@ -43,7 +47,8 @@ public partial class Register : System.Web.UI.Page
                 cmd.Parameters.AddWithValue("@pa", TextBox4.Text);
                 con.Open();
                 cmd.ExecuteNonQuery();
-                Label2.Text = "User Created Succesfully <a href = 'login.aspx'> click to Login</a>";
+                Label2.Text = "User Created Succesfully <a href = 'Login.aspx' style='color:blue'> click to Login</a>";
+                Label2.ForeColor = System.Drawing.Color.Blue;
             }
             catch
             {
