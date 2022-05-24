@@ -29,15 +29,15 @@
                                       <li><a class="active" href="Home.aspx">Home</a></li>
                                       <li><a href="About.aspx">About Us</a></li>
                                       <li><a href="Contact.aspx">Contact Us</a></li>
-                                      <li><a href="#about">Our Products</a></li>
+                                      <li><a href="Products.aspx">Our Products</a></li>
                                     </ul>
                                 </div>
                                 <div id="top_r">
                                    <asp:LoginView ID="LoginView1" runat="server">
                                        <AnonymousTemplate>
                                            Hi NEW USER!&nbsp;
-                                           <a href="Register.aspx">Register</a>&nbsp;|&nbsp;
-                                           <a href="Login.aspx">Login</a>
+                                           <a href="Register.aspx" style="color:white">Register</a>&nbsp;|&nbsp;
+                                           <a href="Login.aspx" style="color:white">Login</a>
                                        </AnonymousTemplate>
                                        <LoggedInTemplate>
                                          <asp:LoginName ID="LoginName2" runat="server" FormatString="Welcome {0} !!" ForeColor="white" Font-Size="Medium"/>              
