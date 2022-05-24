@@ -26,7 +26,7 @@
                                 <img src="Images/masterBg.jpg" width="100%" height="350px"/>
                                 <div>
                                     <ul>
-                                      <li><a class="active" href="#home">Home</a></li>
+                                      <li><a class="active" href="Home.aspx">Home</a></li>
                                       <li><a href="#news">About Us</a></li>
                                       <li><a href="#contact">Contact Us</a></li>
                                       <li><a href="#about">Our Products</a></li>
@@ -36,8 +36,8 @@
                                    <asp:LoginView ID="LoginView1" runat="server">
                                        <AnonymousTemplate>
                                            Hi NEW USER!&nbsp;
-                                           <a href="register.aspx">Register</a>&nbsp;|&nbsp;
-                                           <a href="login.aspx">Login</a>
+                                           <a href="Register.aspx">Register</a>&nbsp;|&nbsp;
+                                           <a href="Login.aspx">Login</a>
                                        </AnonymousTemplate>
                                        <LoggedInTemplate>
                                          <asp:LoginName ID="LoginName2" runat="server" FormatString="Welcome {0} !!" ForeColor="Brown" Font-Size="Medium"/>              
